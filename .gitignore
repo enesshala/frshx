@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# private enquiry files, if intake is pointed inside the repo
+/private-intake/
 
 # vercel
 .vercel
