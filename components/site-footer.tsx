@@ -11,8 +11,8 @@ export function SiteFooter() {
             Beyond Numbers. Beyond Borders.
           </p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/80">
-            Founder-led financial intelligence and advisory, based in Kosovo
-            and working with businesses worldwide.
+            Founder-led financial intelligence and advisory, based in Kosovo and
+            working with businesses worldwide.
           </p>
         </div>
         <div className="md:col-span-3">
@@ -66,16 +66,43 @@ export function SiteFooter() {
                 href="/privacy"
                 className="inline-flex min-h-11 items-center text-sm text-white/90 underline-offset-4 hover:underline"
               >
-                Privacy
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/terms"
+                className="inline-flex min-h-11 items-center text-sm text-white/90 underline-offset-4 hover:underline"
+              >
+                Terms and Conditions
               </Link>
             </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/15">
-        <p className="mx-auto max-w-6xl px-5 py-5 text-sm text-white/70 sm:px-8">
-          FRSHX
-        </p>
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-5 text-sm text-white/70 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+          <div className="flex flex-col gap-2">
+            <p>FRSHX</p>
+            <p className="flex flex-wrap gap-x-4 gap-y-1">
+              <Link href="/privacy" className="underline-offset-4 hover:underline">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="underline-offset-4 hover:underline">
+                Terms and Conditions
+              </Link>
+            </p>
+          </div>
+          <p>
+            Designed and developed by{" "}
+            <a
+              href="https://optio-digital.com"
+              className="text-white/90 underline underline-offset-4"
+            >
+              Optio Digital
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );

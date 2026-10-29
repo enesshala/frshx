@@ -629,7 +629,11 @@ export function EnquiryForm({
           <p className="mt-1 text-sm leading-relaxed text-muted">
             Read the{" "}
             <Link href="/privacy" className="text-teal underline underline-offset-4">
-              privacy notice
+              Privacy Policy
+            </Link>{" "}
+            and{" "}
+            <Link href="/terms" className="text-teal underline underline-offset-4">
+              Terms and Conditions
             </Link>
             .
           </p>
